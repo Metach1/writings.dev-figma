@@ -52,3 +52,31 @@ body {
     font-size: 29px;
     font-weight: 400;
 }
+
+hr {
+    margin: 0px -200px;
+    border: none;
+    border-top: 2px solid #4D4D4D;
+    opacity: 0.5;
+}
+
+#category-list {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#category-list img {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#category-list div {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    font-style: italic;
+    color:#909090;
+}
