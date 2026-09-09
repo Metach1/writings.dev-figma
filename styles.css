@@ -3,6 +3,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: white;
     margin  : 0px 200px;
+    padding-bottom: 50px;
 }
 
 #header {
@@ -132,4 +133,58 @@ hr {
 
 .article-date span {
     margin-right: 20px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#pagination div {
+    font-size: 25px;
+    font-family: 'Recursive';
+    color: #909090;
+    font-style: italic;
+}
+
+#pagination div.current-page {
+    color: #FF7575;
+}
+
+.hr-pagination {
+    margin-top: 75px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.left-footer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.left-footer span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right-footer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+button {
+    border-width: 0px;
+    background-color: #4699E0;
+    color: white;
+    font-family: 'Poppins';
+    border-radius: 5px;
+    cursor: pointer;
 }
