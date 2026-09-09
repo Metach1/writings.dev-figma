@@ -1,6 +1,6 @@
 body {
     background-color: #232830;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: white;
     margin  : 0px 200px;
 }
@@ -20,5 +20,35 @@ body {
     padding: 0px 20px;
     font-size: 24px;
     font-weight: 400;
+}
 
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 0px;
+    flex-direction: column;
+}
+
+#logo img {
+    width: 194.45px;
+    height: 204.08px;
+}
+/* #logo div {
+    display: block;
+} */
+
+.title {
+    margin-top: 10px;
+    font-family: 'Recursive', sans-serif;
+    color: #FF7575;
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.subtitle{
+    margin-top: 10px;
+    font-size: 29px;
+    font-weight: 400;
 }
