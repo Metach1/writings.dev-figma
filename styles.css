@@ -3,13 +3,18 @@ body {
     font-family: 'Poppins', sans-serif;
     color: white;
     margin  : 0px 200px;
-    padding-bottom: 50px;
+
 }
 
 #header {
     display:flex;
     margin-top: 75px;
     justify-content: space-between;
+    font-size: 30px;
+}
+
+.left-header {
+    font-weight: bold;
     font-size: 30px;
 }
 
@@ -80,6 +85,13 @@ hr {
     font-weight: 400;
     font-style: italic;
     color:#909090;
+}
+
+.fade-text {
+    font-style: italic;
+    color: #909090;
+    -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
+    mask-image: linear-gradient(to right, black 60%, transparent 100%);
 }
 
 #article-grid {
@@ -187,4 +199,11 @@ button {
     font-family: 'Poppins';
     border-radius: 5px;
     cursor: pointer;
+}
+
+footer {
+    color: gray;
+    font-size: 10px;
+    opacity: 0.75;
+    text-align: end;
 }
